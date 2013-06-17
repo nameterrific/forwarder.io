@@ -36,7 +36,7 @@ def forwarder(hostname)
       else
         status_code = 307
       end
-     redirect to(segments[1], status_code) 
+     redirect to(segments[1]), status_code 
      return true
     end
   end
